@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura de uma Landing Page</title>
+    <style>
+        /*Resetando Amrgens e bordas padrão */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+        /* Estilo geral do corpo da página */
+        body{
+            font-family: arial;sans-serif; 
+        }
+        /* Cabeçalho com fundo azul escuro e texto branco*/
+        header{
+            background-color: #1e3a8a;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        /*Menu de navegação com fundo azul claro*/
+        nav{
+            background-color: #563eb5;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        /*Seção principal (hero) com fundo amarelo*/
+        .hero{
+            background-color: #fbbf24;
+            padding: 40px;
+            text-align: center;
+            color: #333;
+        }
+        /*Seção "Sobre a Empresa" com fundo cinza claro*/
+        .about{
+            background-color: #f3f4f6;
+            padding: 30px;
+            text-align: center;
+            color: #000;
+        }
+        /*Seção das áreas de atuação com fundo cinza médio*/
+        .pratice-areas{
+            background-color: #d1d5db;
+            padding: 30px;
+            text-align: center;
+        }
+        /*Blocos individuais dentro das áreas de atuação*/
+        .pratice-areas .area{
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px dashed #999;
+        }
+        /*Rodapé com fundo cinza escuro e texto braco*/
+        footer{
+            background-color: #374151;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        /*Espaçamento superior para parágrafos*/
+        p{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+   <!--Cabeçalho da página-->
+   <header>
+    <h1>Header (Cabeçalho)</h1>
+    <p>Contém o nome do site ou logotipo</p>
+   </header>
+   <!--Menu de Navegação-->
+   <nav>
+    <h2>Menu de Navegação</h2>
+    <p>Links para outras páginas ou seções</p>
+   </nav>
+   <!--Seção principal com chamada de ação-->
+   <section class="hero">
+    <h2>Seçao principal (Hero)</h2>
+    <p>Aqui colocamos um título de impacto e uma chamada para ação</p>
+   </section>
+   <!--Seção sobre a empresa-->
+   <section class="about">
+    <h2>Sobre a empresa</h2>
+    <p>Texto descritivo explicando quem somos e o que fazemos</p>
+   </section>
+   <!--Solução de área de atuação da empresa-->
+   <section class="pratice-areas">
+    <h2>Áreas de atuação</h2>
+    <!--Bloco de serviço-->
+    <div class="area">
+        <h3>Área 1</h3>
+        <p>Explicação de uma área de serviços</p>
+    </div>
+    <!--Bloco de serviço 2-->
+    <div class="area">
+        <h3>Área 2</h3>
+        <p>Explicação de uma área de serviço</p>
+    </div>
+    <!--Bloco de serviço 3-->
+    <div class="area">
+        <h3>Área 3</h3>
+        <p>Explicação de uma área de serviço</p>
+    </div>
+   </section>
+   <!--Rodapé da Página-->
+   <footer>
+    <h2>Rodapé</h2>
+    <p>Informações finais como contato, redes sociais e direitos autorais </p>
+   </footer>
+</body>
+</html>
